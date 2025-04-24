@@ -1,0 +1,229 @@
+/* edit css for body */
+body{
+
+    background:rgb(224, 224, 224);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:250px;
+
+}
+
+/* edit header css */
+.header{
+
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background:rgba(255, 255, 255, 0.432);
+    padding: 1% 0%;
+    font-size: larger;
+    font-weight: 900;
+    word-spacing: 6px;
+    letter-spacing: 15px;
+    /* text-emphasis: circle; */
+    opacity: .5;
+}
+
+/* edit all p */
+p{
+
+    color: rgb(0, 0, 0);
+
+}
+
+/* edit the error if show empty input css */
+.mypara{
+
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+/* edit input css */
+#input {
+    border: 1px solid black;
+    padding: 2% 0%;
+    text-align: center;
+    margin: 16% 22% 2%;
+    width: 55%;
+    font-size: 16px;
+    /* border-radius: 30px; */
+}
+
+/* edit button for edit css */
+#button{
+    font-weight: 700;
+    font-size: 16px;
+    height: fit-content;
+    padding: 1% 6%;
+    width: fit-content;
+    margin: 0% 42% 3%;
+
+}
+
+/* edit ul css */
+ul{
+    margin: 1% 1%;
+    border-right: 25px solid;
+    padding: 0%;
+}
+
+/* edit li css */
+li{
+    margin: 1% 0%;
+    padding-top: 1%;
+    background: rgba(255, 255, 255, 0.438);
+    font-size: larger;
+    direction: rtl ;
+    text-align: start;
+    overflow: auto;
+}
+
+/* edit icon delet css */
+.delet{
+    
+    cursor: pointer;
+    display: inline;
+    
+}
+
+/* edit all button css */
+button{
+    
+    background: transparent;
+    border: 0;
+    
+}
+
+/* edit button delet css */
+.mybutton{
+
+    float: left;
+    margin-left: 3%;
+    margin-top: 0%;
+
+}
+
+/* edit para (edit) in li css  */
+.para{
+    overflow: hidden;
+    width: 1160px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+/* My form show when click in Edit */
+.myform{    
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 100%;
+    height: fit-content;
+}   
+
+/* The input in form css */
+.myedit{
+
+    padding-bottom: 10%;
+    padding-top: 5%;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+/* edit button in form css */
+.myform button{
+
+    position: absolute;
+    top: 68%;
+    right: 4%;
+    padding: 0.5% 1.5%;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(rgb(230, 213, 213), transparent);
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 900;
+
+}
+
+/* edit p in form css */
+.para_form{
+    position: absolute;
+    top: 70%;
+    right: 38%;
+    color: #ff000094;
+    font-size: 23px;
+    font-weight: 900;
+    font-style: italic; 
+}
+
+/* responsive mobile css */
+@media only screen and (max-width : 500px){
+
+    #input{
+    border: 1px solid black;
+    padding: 7% 0%;
+    text-align: center;
+    margin: 54% 9% 6%;
+    width: 83%;
+    font-size: 16px;
+    }
+
+    .header{
+
+        letter-spacing: 5px;
+
+    }
+
+    #button{
+
+    font-weight: 700;
+    font-size: 18px;
+    height: fit-content;
+    padding: 1% 7%;
+    width: fit-content;
+    margin: 3% 35% 7%;
+
+    }
+
+    .para{
+
+        width: 257px;
+        font-size: 16px;
+    }
+
+    .myedit{
+
+        padding-bottom: 22%;
+        padding-top: 9%;
+        width: 100%;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+
+    .myform{
+
+        top: 85%;
+
+    }
+
+    .para_form{
+
+        top: 63%;
+        right: 35%;
+        font-size: 12px;
+
+    }
+
+    .myform button {
+        top: 65%;
+        right: 10%;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: white;
+    }
+
+}
